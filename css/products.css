@@ -1,0 +1,129 @@
+/*总容器*/
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+/*search部分*/
+.wrapper .search{
+    width: 100%;
+    height: 13vw;
+}
+.wrapper .search .search-fixed-top{
+    width: 100%;
+    height: 13vw;
+    background-color: #e30e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .search .search-fixed-top .search-box{
+    width: 90%;
+    height: 9vw;
+    background-color: #ffffff;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3.5vw;
+    color: #AEAEAE;
+    font-family: "宋体";
+
+    user-select: none;/*此样式是让文本选中状态无效*/
+}
+.wrapper .search .search-fixed-top .search-box .fa-search{
+    margin-right: 1vw;
+}
+.wrapper .search .search-fixed-top .search-box img{
+    height: 4vw;
+    position: absolute;
+    left: 7vw;
+}
+
+/*图片部分*/
+.wrapper .photo{
+    width: 100%;
+    height: 90vw;
+}
+.wrapper .photo img{
+    width: 100%;
+    height: 100%;
+}
+
+/*产品介绍部分*/
+.wrapper .product{
+    background-color: #ffffff;
+    height: 35vw;
+}
+.wrapper .product .goods_price{
+    color: #e30e0e;
+    font-size: 6vw;
+    padding: 1vw 0 0 1vw;
+}
+.wrapper .product .goods_name{
+    font-weight: bold;
+    padding: 1vw 1vw 1vw 1vw;
+}
+.wrapper .product .ad{
+    font-size: 3vw;
+    height: 5vw;
+    background-color: #ea86b3;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+/*底部菜单部分*/
+.wrapper .footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li img{
+    vertical-align: bottom;
+    width: 20vw;
+    height: 15vw;
+}
+.wrapper .footer li .txt p{
+    /*vertical-align: bottom;*/
+    padding: 2vw;
+    font-size: 3vw;
+    color: #ffffff;
+    text-align:center;
+    background-color: #e30e0e;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 20px;
+}
+.wrapper .footer li p{
+    /*vertical-align: bottom;*/
+    padding: 2vw;
+    font-size: 3vw;
+    color: #ffffff;
+    text-align:center;
+    background-color: #d7cd1e;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 20px;
+}

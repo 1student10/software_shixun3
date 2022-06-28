@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="framework/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="framework/reset.css" rel="stylesheet">
+    <link href="css/pay.css" rel="stylesheet">
+    <script src="js/pay.js"></script>
+    <title>在线支付</title>
+</head>
+<body>
+<div class="wrapper">
+
+    <!--header部分-->
+    <header><p>京东收银台</p></header>
+
+    <!--订单信息部分-->
+    <h3>订单信息：</h3>
+    <div class="order-info">
+        <p>
+            物枕居旗舰店
+            <i class="fa fa-caret-down" id="showBtn"></i>
+        </p>
+        <p>&#165;39.00</p>
+    </div>
+
+    <!--订单明细部分-->
+    <ul class="order-detailet" id="detailetBox">
+        <li>
+            <p>物枕居 连体坐垫靠垫一体 加厚连体椅垫靠背垫子座垫靠枕腰靠办公室学生腰枕汽车椅垫有绑带可固定 蓝色小鹿 85*45厘米 x 1</p>
+            <p>&#165;39</p>
+        </li>
+        <li>
+            <p>运费</p>
+            <p>&#165;0</p>
+        </li>
+    </ul>
+
+    <!--支付方式部-->
+    <ul class="payment-type">
+        <li>
+            <div>
+                <img src="./img/sdk_bank_POST.png">
+                <p>邮政储蓄储蓄卡(6081)</p>
+            </div>
+            <i class="fa fa-check-circle"></i>
+        </li>
+        <li>
+            <div>
+                <img src="./img/WeChat___.png">
+                <p>微信支付</p>
+            </div>
+        </li>
+    </ul>
+    <div class="payment-button">
+        <button>确认支付</button>
+    </div>
+
+    <!--底部菜单部分-->
+    <ul class="footer">
+        <li onclick="location.href='index.html'">
+            <img src="img/shouye.png">
+        </li>
+        <li>
+            <img src="img/jingxi.png">
+        </li>
+        <li onclick="location.href='shoppingCart.html'">
+            <img src="img/gouwuche.png">
+        </li>
+        <li>
+            <img src="img/wode.png">
+        </li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+/*总容器*/
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+/*header部分*/
+.wrapper header{
+    width: 100%;
+    height: 12vw;
+    background-color: #e30e0e;
+    color: #fff;
+    font-size: 4.8vw;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*收获地址部分*/
+.wrapper .address{
+    margin-top: 12vw;
+    height: 12vw;
+    color: #DDD;
+    background-color: #e30e0e;
+    border-top: solid 1px #999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    display: flex;
+    align-items: center;
+}
+.wrapper .address .location-text{
+    margin-left: 1vw;
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+.wrapper .address .location-text .fa-caret-down{
+    margin-left: 1vw;
+}
+
+/*历史订单列表部分*/
+.wrapper .section{
+    background: #fff;
+    border-radius: .5rem;
+    color: #262626;
+    margin-top: .6rem;
+    padding: .6rem 0 1px;
+    position: relative;
+    height: 43vw;
+}
+.wrapper .section .head_wrap{
+    background: #fff;
+    box-shadow: 0 -1px #fff;
+    position: sticky;
+    z-index: 99;
+}
+.wrapper .section .head_wrap .head{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    margin: 2vw;
+    padding: 0 0 0 10vw;
+    position: relative;
+    z-index: 1;
+}
+.wrapper .icon_select {
+    background-image: url('../img/icon_selected_jd@2x.9edc3756.png');
+    background-size: 31px 31px;
+    height: 31px;
+    width: 31px;
+    left: 0.2vw;
+    position: absolute;
+}
+.wrapper .section .head .title img{
+    height: 5vw;
+    width: 5vw;
+    margin-right: 1vw;
+}
+.wrapper .section .head .title{
+    align-items: center;
+    box-sizing: border-box;
+    color: #333;
+    display: flex;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+.wrapper .business{
+    width: 100%;
+    margin-bottom: 14vw;
+}
+.wrapper .business li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    user-select: none;
+    /*border-bottom: solid 1px #DDD;*/
+
+    display: flex;
+}
+.wrapper .business li img{
+    width: 24vw;
+    height: 24vw;
+    border-radius: 2vw;
+}
+.wrapper .business li .business-info{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+.wrapper .business li .business-info .business-info-star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw 0 0 2vw;
+    font-size: 3.1vw;
+}
+.wrapper .goods_name {
+    text-align: left;
+    line-height: 1.05rem;
+    height: 20vw;
+    /*font-size: 0.7rem;*/
+    font-family: -apple-system, Helvetica, sans-serif;
+    overflow: hidden;
+    color: #434343;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+}
+.wrapper .goods_price{
+    font-style: normal;
+    /*font-family: JDZH-Regular, sans-serif;*/
+    display: inline-block;
+    font-size: 3.6vw;
+    /*line-height: 2vw;*/
+    color: #ff4142;
+}
+.wrapper .business li .goods-right{
+    width: 16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .business li .goods-right .fa-minus-circle{
+    font-size: 5.5vw;
+    color: #999;
+    cursor: pointer;
+}
+.wrapper .business li .goods-right p{
+    width: 5vw;
+    font-size: 3.6vw;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align:center;
+}
+.wrapper .business li .goods-right .fa-plus-circle{
+    font-size: 5.5vw;
+    color: #e30e0e;
+    cursor: pointer;
+}
+
+
+
+/*底部菜单部分*/
+.wrapper .footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li img{
+    vertical-align: bottom;
+    width: 20vw;
+    height: 15vw;
+}
+

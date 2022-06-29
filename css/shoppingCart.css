@@ -36,6 +36,11 @@
     display: flex;
     align-items: center;
 }
+.wrapper .address img{
+    margin-left: 3vw;
+    height: 5vw;
+    width: 5vw;
+}
 .wrapper .address .location-text{
     margin-left: 1vw;
     font-size: 4.5vw;
@@ -46,7 +51,7 @@
     margin-left: 1vw;
 }
 
-/*历史订单列表部分*/
+/*订单列表部分*/
 .wrapper .section{
     background: #fff;
     border-radius: .5rem;
@@ -140,10 +145,8 @@
 }
 .wrapper .goods_price{
     font-style: normal;
-    /*font-family: JDZH-Regular, sans-serif;*/
     display: inline-block;
     font-size: 3.6vw;
-    /*line-height: 2vw;*/
     color: #ff4142;
 }
 .wrapper .business li .goods-right{
